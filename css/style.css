@@ -515,7 +515,7 @@ ul.social-slide li i.mac{
 	background: url(../images/8.png) no-repeat 0px 5px;
 }
 .top-grid-bottom a.great{
-	color:#2b3e4e;
+	color:#300004;
 	font-size:15px;
 	margin:1em 0;
 	font-weight:700;
@@ -551,7 +551,7 @@ ul.social-slide li i.mac{
 	font-size:13px;
 }
 .yellow h4{
-	color:#2b3e4e;
+	color:#300004;
 	font-size:15px;
 	margin:1em 0;
 	font-weight:400;
@@ -579,7 +579,7 @@ ul.social-slide li i.mac{
   line-height: 1.5em;
 }
 .top-grid-last-info p.ancient{
-	color: #2b3e4e;
+	color: #300004;
 	margin: 2em 0 0 0;
 	font-size:13px;
 	text-align:center;
@@ -671,7 +671,7 @@ ul.social-slide li i.mac{
 	padding: 2em 2em 3.3em;
 }
 .poll h3{
-	color:#2b3e4e;
+	color:#300004;
 	font-size:22px;
 	font-weight:700;
 	margin:0;
@@ -762,7 +762,7 @@ ul.social-slide li i.mac{
   background: #7b0009;
 }
 .checkbox-form input[type="submit"]:hover{
-	background:#2b3e4e;
+	background:#300004;
 	color:#FFF;
 	  transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -783,7 +783,7 @@ ul.social-slide li i.mac{
 	padding: 1.93em 2em;
 }
 .result h3{
-	color:#2b3e4e;
+	color:#300004;
 	font-size:22px;
 	font-weight:700;
 	margin:0;
@@ -980,14 +980,14 @@ ul.social-slide li i.mac{
 	text-align:center;
 }
 .bottom-grid-info h4{
-  color: #2b3e4e;
+  color: #300004;
   font-size: 23px;
   margin: 1em 0;
   font-weight: 700;
   text-transform: uppercase;
 }
 .bottom-grid-info h5{
-	color: #2b3e4e;
+	color: #300004;
 	font-size: 14px;
 	margin: 1em 0;
 	font-weight: 700;
@@ -999,7 +999,7 @@ ul.social-slide li i.mac{
 	margin:0;
 }
 .bottom-grid-info p.info{
-	color: #2b3e4e;
+	color: #300004;
 	font-size: 15px;
 	margin: 1em 0 0 0;
 }
@@ -1009,14 +1009,14 @@ ul.social-slide li i.mac{
 	text-align:center;
 }
 .register h4{
-  color: #2b3e4e;
+  color: #300004;
   font-size: 23px;
   margin: 1em 0;
   font-weight: 700;
   text-transform: uppercase;	
 }
 .register p{
-	color:#2b3e4e;
+	color:#300004;
 	font-size:14px;
 	margin:0;
 }
@@ -1025,7 +1025,7 @@ ul.social-slide li i.mac{
 }
 .register input[type="text"],.register input[type="password"] {
   width: 100%;
-  color: #2b3e4e;
+  color: #300004;
   background: #ecf0f1;
   outline: none;
   font-size: 14px;
@@ -1049,7 +1049,7 @@ ul.social-slide li i.mac{
   background: #7b0009;
 }
 .register input[type="submit"]:hover{
-	background:#2b3e4e;
+	background:#300004;
 	color:#FFF;
 	  transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -1169,7 +1169,7 @@ ul.social-slide li i.mac{
 	text-transform:uppercase;
 }
 .golden-bottom h3{
-  color: #2b3e4e;
+  color: #300004;
   font-size: 24px;
   margin: 0;
   font-weight: 600;
@@ -1180,14 +1180,14 @@ ul.social-slide li i.mac{
 	text-align: center;
 }
 .login h4{
-	color: #2b3e4e;
+	color: #300004;
 	font-size: 23px;
 	margin: 1em 0;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 .login p{
-	color:#2b3e4e;
+	color:#300004;
 	font-size:14px;
 	margin:0;
 	text-align:center;
@@ -1294,7 +1294,7 @@ ul.social-slide li i.mac{
   position: relative;
 }
 .last-grid-left-bottom p{
-	color:#2b3e4e;
+	color:#300004;
 	font-size:14px;
 	margin: 2em 0;
 }
@@ -1305,7 +1305,7 @@ ul.social-slide li i.mac{
 	float:left;
 }
 .content-left p.content-text{
-	color:#2b3e4e;
+	color:#300004;
 	font-size:14px;
 	margin:0;
 	position: relative;
@@ -1314,7 +1314,7 @@ ul.social-slide li i.mac{
 	float:right;
 }
 .content-right p.content-text{
-	color:#2b3e4e;
+	color:#300004;
 	font-size:14px;
 	margin:0;
 	text-align:right;
@@ -1338,7 +1338,7 @@ ul.social-slide li i.mac{
   width: 264%;
 }
 .last-grid-left-bottom p.save{
-  color: #2b3e4e;
+  color: #300004;
   font-size: 12px;
   margin: 1em 0 2em;
   text-align: center;
@@ -1370,7 +1370,7 @@ button.select-city {
 	border-radius: 0;
 	border: none;
 	padding: 1em 0;
-	color:#2b3e4e;
+	color:#300004;
 	font-weight: 300;
     background: url(../images/s-ar.png) no-repeat 242px 18px #FFF;
 }
@@ -1383,7 +1383,7 @@ ul.select-menu {
   border-radius: 0;
 }
 ul.select-menu li a{
-	color: #2b3e4e;
+	color: #300004;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 700;
@@ -1471,7 +1471,7 @@ ul.select-menu li a{
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2b3e4e;
+  background: #300004;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
@@ -1847,7 +1847,7 @@ ul.select-menu li a{
 	  margin-top: 1em;
 	}
 }
-@media (max-width: 480px){
+@media (max-width: 100px){
 	.head-logo a img {
 	  width: 57%;
 	}
