@@ -8,13 +8,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 html,body {
 	font-family: 'Open Sans', sans-serif;
 	font-size:100%;
-	background: #b0171f; /* Old browsers */
-	background: -moz-linear-gradient(top,  #b0171f 0%, #214787 50%, #126072 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b0171f), color-stop(50%,#214787), color-stop(100%,#126072)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #b0171f 0%,#214787 50%,#801515 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #b0171f 0%,#214787 50%,#126072 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #b0171f 0%,#214787 50%,#126072 100%); /* IE10+ */
-	background: linear-gradient(to top,  #f20430 0%,#8f0222 50%,#7b0009 100%); /* W3C */
+	background: #f44336; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f44336 0%,#8f0222 50%,#7b0009 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f44336), color-stop(50%,#8f0222), color-stop(100%,#7b0009)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f44336 0%,#8f0222 50%,#7b0009 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f44336 0%,#8f0222 50%,#7b0009 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f44336 0%,#8f0222 50%,#7b0009 100%); /* IE10+ */
+	background: linear-gradient(to top,  #f44336 0%,#8f0222 50%,#7b0009 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0171f', endColorstr='#126072',GradientType=0 ); /* IE6-9 */
 
 }
@@ -76,7 +76,7 @@ body a {
 	margin:0 1.5em;
 }
 .top-nav ul li a{
-	color: #F44336;
+	color: #f44336;
 	text-decoration: none;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -116,7 +116,7 @@ body a {
   margin-top: 1em;
 }
 .banner{
-	background:url("../images/banner.jpg") no-repeat 0px 0px;
+	background:url("../images/carousel/a") no-repeat 0px 0px;
 	min-height:425px;
 	background-size:cover;
 }
@@ -170,6 +170,20 @@ body a {
   font-weight: 100;
   background: url(../images/3.png) no-repeat 1px 4px;
 }
+
+/*-- carousel --*/
+.carousel-img {
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   height: 300px;
+}
+.carousel-txt{
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
 /*------------------ Slider Part starts Here----------*/
 #slider2,
 #slider3 {
@@ -1404,7 +1418,7 @@ ul.select-menu li a{
 	margin:1em 0 3em 0;	
 }
 .footer-grid h5{
-	color:#F44336;
+	color:#f44336;
 	font-size:14px;
 	font-weight:700;
 	text-transform:uppercase;
@@ -1424,7 +1438,7 @@ ul.select-menu li a{
   font-weight: 300;
 }
 .footer-grid ul li a:hover{
-	color:#F44336;
+	color:#f44336;
 }
 .copyright p{
 	font-size:14px;
@@ -1437,7 +1451,7 @@ ul.select-menu li a{
 	text-decoration:none;
 }
 .copyright p a:hover{
-	color:#F44336;
+	color:#f44336;
 }
 /*--button-hover--*/
 .more a.hvr-bounce-to-bottom {
