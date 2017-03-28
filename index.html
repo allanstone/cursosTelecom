@@ -1,798 +1,330 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<title>CURSOS TELECOM</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
-	<meta name="keywords" content="Cursos Telecomunicaciones, Cisco, CCNA, CCNP, Fast Track, Responsive layout" />
-	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-
-	<!-- bootstarp-css -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-	<!--// bootstarp-css -->
-	<!-- css -->
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-	<!--// css -->
-	<script src="js/jquery.min.js"></script>
-	<!--fonts-->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
-	<!--/fonts-->
-	<!-- dropdown -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="js/scripts.js" type="text/javascript"></script>
-	<!--js-->
-	<!--/js-->
-	<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
-	<script type="text/javascript">
-		$(document).ready(function () {
-			$('#horizontalTab').easyResponsiveTabs({
-				            type: 'default', //Types: default, vertical, accordion           
-				            width: 'auto', //auto or any width like 600px
-				            fit: true   // 100% fit in a container
-				        });
-		});
-	</script>	
-	<!----Calender -------->
-	<link rel="stylesheet" href="css/clndr.css" type="text/css" />
-	<script src="js/underscore-min.js"></script>
-	<script src= "js/moment-2.2.1.js"></script>
-	<script src="js/clndr.js"></script>
-	<script src="js/modal.js"></script>
-	<script src="js/site.js"></script>
-	<!----End Calender -------->
-	<script>$(document).ready(function(c) {
-		$('.alert-close1').on('click', function(c){
-			$('.calender-right').fadeOut('slow', function(c){
-				$('.calender-right').remove();
-			});
-		});	  
-	});
-</script>
-<script>$(document).ready(function(c) {
-	$('.alert-close').on('click', function(c){
-		$('.last-grid-left-bottom').fadeOut('slow', function(c){
-			$('.last-grid-left-bottom').remove();
-		});
-	});	  
-});
-</script>
+    <title>CURSOS TELECOM</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<!-- header -->
-	<div class="header">
-		<!-- container -->
-		<div class="container">	
-			<div class="head-logo">
-				<a href="index.html"><img src="images/header3.png" alt="" class="img-responsive"/></a>
-			</div>
-		</div>		
-	</div>
-	<!--End header -->
+    <div class="container">
+        <div class="row top-title">
+            <img src="img/header3.png" alt="" class="responsive-img">
+        </div>
+        <!--
+          NAVBAR
+        -->
+        <div class="row">
+            <ul id="dropdown1" class="dropdown-content">
+              <li><a href="#">Ciclo Escolar 2016-1</a></li>
+              <li><a href="#">Ciclo Escolar 2016-2</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Ciclo Escolar 2017-1</a></li>
+            </ul>
+            <nav class="grey darken-4">
+                <div class="nav-wrapper">
+                  <a href="#" class="brand-logo left hide-on-large-only">Cursos Telecom</a>
+                    <a href="#" data-activates="dropdown2" id="activaDrop2" class="button-collapse right"><i class="material-icons">menu</i></a>
+                      <ul class="right hide-on-med-and-down">
+                        <li><a href="#"><i class="material-icons right">perm_identity</i>Registro a Cursos</a></li>
+                         <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons right">today</i>Calendarios<i class="material-icons right">arrow_drop_down</i></a></li>
+                         <li><a href=""><i class="material-icons right">help</i>FAQ</a></li>
+                         <li><a target="_blank" href="http://odin.fi-b.unam.mx/ctyss/Formatos/Opciones_titulacion/Reglamento_Opciones_de_Titulacion_2015.pdf"><i class="material-icons">insert_drive_file</i>Formato Titulación</a></li>
+                      </ul>
 
-	<!-- //navbar -->
-	<div class="container">
-		<nav class="navbar navbar-inverse" style="background-color: #0c161e;">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#">F.I.</a>
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Home</a></li>
-						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Registro de Cursos</a></li>
-								<li><a href="#">Page 1-2</a></li>
-								<li><a href="#">Page 1-3</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Calendarios</a></li>
-						<li><a target="_blank" 9
-						href="http://odin.fi-b.unam.mx/ctyss/Formatos/Opciones_titulacion/Reglamento_Opciones_de_Titulacion_2015.pdf">Formato Titulación</a></li>
-					</ul>
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#"><span class="glyphicon glyphicon-user"></span> Registro</a></li>
-						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Iniciar Sesión</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</div>
-	<!-- //navbar -->
+                      
+               </div>
 
-	<!-- banner -->
-	<div class="banner-bg">
-		<!-- container -->
-		<div class="container">
-			<div class="banner">
-				<!-- banner Slider starts Here -->
-				<script src="js/responsiveslides.min.js"></script>
-				<script>
-							// You can also use "$(window).load(function() {"
-							$(function () {
-							  // Slideshow 4
-							  $("#slider3").responsiveSlides({
-							  	auto: true,
-							  	pager: false,
-							  	nav: true,
-							  	speed: 500,
-							  	namespace: "callbacks",
-							  	before: function () {
-							  		$('.events').append("<li>before event fired.</li>");
-							  	},
-							  	after: function () {
-							  		$('.events').append("<li>after event fired.</li>");
-							  	}
-							  });
+            </nav>
+            <ul id="dropdown2" class="dropdown-content">
+                         <li><a href="#"><i class="material-icons left">today</i>Registro a Cursos</a></li>
+                         <li><a href="#"><i class="material-icons right">today</i>Calendarios</a></li>
+                         <li><a href="#"><i class="material-icons right">help</i>FAQ</a></li>
+                         <li><a target="_blank" href="http://odin.fi-b.unam.mx/ctyss/Formatos/Opciones_titulacion/Reglamento_Opciones_de_Titulacion_2015.pdf"><i class="material-icons">insert_drive_file</i>Formato Titulación</a></li>
+                      </ul>
+        </div>
 
-							});
-						</script>
-						<!--//End-slider-script -->
-						
-						<div  id="top" class="callbacks_container">
-							<ul class="rslides" id="slider3">
-								<li>
-									<div class="banner-info">
-										<p class="sup">Cursos</p>
-										<h2>CNNA ROUTING & SWITCHING</h2>
-										<p class="sub">ING. RAMIRO RUIZ</p>
-										<div class="banner-grids">
-											<div class="banner-left">
-												<a href="#" class="text">112</a>
-											</div>
-											<div class="banner-right">
-												<a href="#" class="text">2345</a>
-											</div>
-											<div class="clearfix"> </div>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="banner-info">
-										<p class="sup">Cursos</p>
-										<h2>CNNP ROUTE</h2>
-										<p class="sub">ING. RAMIRO RUIZ</p>
-										<div class="banner-grids">
-											<div class="banner-left">
-												<a href="#" class="text">112</a>
-											</div>
-											<div class="banner-right">
-												<a class="text">2345</a>
-											</div>
-											<div class="clearfix"> </div>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="banner-info">
-										<p class="sup">Cursos</p>
-										<h2>CNNA SECURITY</h2>
-										<p class="sub">ING. RAMIRO RUIZ</p>
-										<div class="banner-grids">
-											<div class="banner-left">
-												<a href="#"class="text">112</a>
-											</div>
-											<div class="banner-right">
-												<a href="#" class="text">2345</a>
-											</div>
-											<div class="clearfix"> </div>
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<!-- //container -->
-			</div>
-			<!-- //banner -->
-			<!-- top-grids -->
-			<div class="top-grids">
-				<!-- container -->
-				<div class="container">
-					<!--First card-->
-					<div class="col-md-3 top-grid">
-						<img src="images/1a.jpg" alt="" />
-						<div class="top-grid-bottom">
-							<div class="top-grid-bottom-grids">
-								<div class="photo">
-									<p>CNNA R&S</p>
-								</div>
-								<div class="photo-right">
-									<ul>
-										<li><a href="#">112</a></li>
-										<li class="comment"><a href="#">2345</a></li>
-									</ul>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<a href="#" class="great">Curso Nuevo</a>
-							<div class="user">
-								<div class="user-left">
-									<img src="images/iop3.gif" alt="" />
-								</div>
-								<div class="user-right">
-									<a href="#">Ing. Ramiro Ruiz</a>
-									<p>Instructor</p>
-								</div>
-								<div class="ckeck-bg">
-									<div class="checkbox-form">
-										<div class="check">
-											<label class="checkbox">
-											</div>
-											<form>
-												<input type="submit" value="VER TEMARIO">
-											</form>
-											<form>
-												<input type="submit" value="INSTRUCTOR ">
-											</form>
+        <!--
+          CARRUSEL
+        -->
+        <div class="row">
+            <div class="slider">
+                <ul class="slides">
+                    <li>
+                        <img src="img/car01.jpg" class="responsive-img">
+                        <!-- random image -->
+                        <div class="caption center-align">
+                            <h3>CNNA ROUTING & SWITCHING</h3>
+                            <h5 class="light grey-text text-lighten-3">Curso de Certificación.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/car02.jpg" class="responsive-img">
+                        <!-- random image -->
+                        <div class="caption left-align">
+                            <h3>CCNP ROUTE & SWITCH</h3>
+                            <h5 class="light grey-text text-lighten-3">Curso de Certificación.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/car03.jpg" class="responsive-img">
+                        <!-- random image -->
+                        <div class="caption right-align">
+                            <h3>CNNA R&S FAST TRACK</h3>
+                            <h5 class="light grey-text text-lighten-3">Diplomado en Interconectividad.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/car04.jpg" class="responsive-img">
+                        <!-- random image -->
+                        <div class="caption center-align">
+                            <h3>CCNA Wireless</h3>
+                            <h5 class="light grey-text text-lighten-3">Curso de Certificación.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/car05.jpg" class="responsive-img">
+                        <!-- random image -->
+                        <div class="caption center-align">
+                            <h3>CCNA SECURITY</h3>
+                            <h5 class="light grey-text text-lighten-3">Diplomado en Interconectividad.</h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--
+          CARDS
+        -->
+        <div class="row">
+            <div class="col m4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activato responsive-img" src="img/cursos/Hackathon_UNAM-Cisco.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Hackathon<i class="material-icons right">more_vert</i></span>
+                        <a class="waves-effect waves-light btn top-title ancho">Temario</a>
+                        <br>
+                        <a class="waves-effect waves-light btn top-title ancho">Equipo</a>
+                        <br>
+                        <a class="waves-effect waves-light btn top-title ancho" href="http://www.cursostelecom.unam.mx/PDF/CV_RRA.pdf" target="_blank">CV Instructor</a>
+                        <br>
+                        <a class="waves-effect waves-light btn top-title ancho" href="#modal2">Inscribete</a>
+                    </div>
+                    <div id="modal2" class="modal">
+                        <div class="modal-content">
+                            <div class="row">
+                                <form class="col s12" action="script.php" method="POST" id="form_datos">
+                                    <div class="row">
+                                        <div class="input-field col s6">
+                                            <input name="names" placeholder="Nombres" id="first_name" type="text" class="validate">
+                                            <label for="first_name">Inscripción</label>
+                                        </div>
+                                        <div class="input-field col s6">
+                                            <input name="lastnames" id="last_name" type="text" class="validate">
+                                            <label for="last_name">Apellidos </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input name="curso" value="CCNA_SECURITY_2017" id="disabled" type="text" class="validate disable" readonly>
+                                            <label for="disabled"></label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input name="password" id="password" type="password" class="validate">
+                                            <label for="password">Password</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input name="email" id="email" type="email" class="validate">
+                                            <label for="email">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col s12">
+                                            Confirma tu correo:
+                                            <div class="input-field inline">
+                                                <input id="email" type="email" class="validate">
+                                                <label for="email" data-error="error" data-success="correcto">Email</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="modal-footer">
+                                 <input class=" modal-action modal-close waves-effect waves-green btn-flat" type="submit" name="submit" value="REGISTRAR">
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">HACKATHON<i class="material-icons right">close</i></span>
+                        <p>Del 9 al 11 de marzo se realizó el primer Girls Hackathon organizado por Cisco, en colaboración con la Facultad de Ingeniería, en el marco del Día Internacional de la Mujer. El objetivo fue mostrar el talento de las estudiantes que hay en esta entidad universitaria y poner a prueba los conocimientos y habilidades adquiridas a lo largo de su carrera, ya que el requisito de la competencia precisaba que las participantes deberían ser de los últimos semestres. El certamen se llevó a cabo en las instalaciones de Cisco y en el Centro de Ingeniería Avanzada de la FI.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col m4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator responsive-img" src="img/cursos/CCNP_RS_2017_2.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">CNNP R&S<i class="material-icons right">more_vert</i></span>
+                        <a class="waves-effect waves-light btn top-title ancho">Temario</a>
+                        <br>
+                        <a class="waves-effect waves-light btn top-title ancho">Equipo</a>
+                        <br>
+                        <a class="waves-effect waves-light btn top-title ancho" href="http://www.cursostelecom.unam.mx/PDF/CV_RRA.pdf" target="_blank">CV Instructor</a>
+                        <br>
+                        <a class="waves-effect waves-light btn top-title ancho" href="#modal1">Inscribete</a>
+                    </div>
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                            <h4>Modal Header</h4>
+                            <p>A bunch of text</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                        </div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                        <p>Descripción del curso:
+                        La currícula de CCNA Routing and Switching (CCNA v5), está diseñada para estudiantes interesados en el aprendizaje de las nuevas tecnologías de la información y comunicación.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col m4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activato responsive-img" src="img/cursos/CCNA_SECURITY_2017_2.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">CNNA SECURITY<i class="material-icons right">more_vert</i></span>
+                        <a class="waves-effect waves-light btn top-title ancho">Temario</a>
+                        <br>
+                        <a class="waves-effect waves-light btn top-title ancho">Equipo</a>
+                        <br>
+                        <a class="waves-effect waves-light btn top-title ancho" href="http://www.cursostelecom.unam.mx/PDF/CV_RRA.pdf" target="_blank">CV Instructor</a>
+                        <br>
+                        <a class="waves-effect waves-light btn top-title ancho" href="#modal2">Inscribete</a>
+                    </div>
+                    <div id="modal2" class="modal">
+                        <div class="modal-content">
+                            <div class="row">
+                                <form class="col s12" action="script.php" method="POST" id="form_datos">
+                                    <div class="row">
+                                        <div class="input-field col s6">
+                                            <input name="names" placeholder="Nombres" id="first_name" type="text" class="validate">
+                                            <label for="first_name">Inscripción</label>
+                                        </div>
+                                        <div class="input-field col s6">
+                                            <input name="lastnames" id="last_name" type="text" class="validate">
+                                            <label for="last_name">Apellidos </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input name="curso" value="CCNA_SECURITY_2017" id="disabled" type="text" class="validate disable" readonly>
+                                            <label for="disabled"></label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input name="password" id="password" type="password" class="validate">
+                                            <label for="password">Password</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input name="email" id="email" type="email" class="validate">
+                                            <label for="email">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col s12">
+                                            Confirma tu correo:
+                                            <div class="input-field inline">
+                                                <input id="email" type="email" class="validate">
+                                                <label for="email" data-error="error" data-success="correcto">Email</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="modal-footer">
+                                 <input class=" modal-action modal-close waves-effect waves-green btn-flat" type="submit" name="submit" value="REGISTRAR">
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">CNNA SECURITY<i class="material-icons right">close</i></span>
+                        <p>Descripción del curso:
+                        La currícula de CCNA Routing and Switching (CCNA v5), está diseñada para estudiantes interesados en el aprendizaje de las nuevas tecnologías de la información y comunicación.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- PARA AGREGAR MAS CARDS DEBES DE PONER UN ROW Y 3 CARDS -->
+        </div> <!-- Quitar este div para un footer pequeño-->
+    </div>
+    <!--
+      FOOTER
+    -->
+    <footer class="page-footer grey darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col m4">
+                    <h5 class="red-text">DIVISIÓN DE INGENIERÍA ELÉCTRICA</h5>
+                    <ul>
+                        <li><a href="http://www.fi-b.unam.mx/">Sitio</a></li>
+                        <li><a href="#"></a>Académicos</li>
+                    </ul>
+                </div>
+                <div class="col m4">
+                    <h5 class="red-text">DEPARTAMENTO DE TELECOMUNICACIONES</h5>
+                    <ul>
+                        <li><a href="http://telecom.fi-b.unam.mx/">Sitio</a></li>
+                        <li><a href="http://www.cursostelecom.unam.mx/">Diplomados</a></li>
+                    </ul>
+                </div>      
+                <div class="col m4">
+                    <h5 class="red-text">FACULTAD DE INGENIERÍA</h5>
+                    <ul>
+                        <li><a href="http://www.ingenieria.unam.mx/">Sitio</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <ul><li>© 2017 <a href="https://www.unam.mx/"> Universidad Nacional Autónoma de México</a></li></ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.slider').slider();
+        $('#modal2').modal();
+        $(".dropdown-button").dropdown();
+        $('#activaDrop2').click(function ($e) {
+           var e = document.getElementById('dropdown2');
+           if (e.classList.contains('active')) {
+              e.classList.remove('active');
+              e.classList.remove('dropdown2-style');
+              //$('#dropdown2').css({"background-color: #212121,height: 64px,line-height: 64px"});
+           }else{
+               e.className +=' active dropdown2-style';
+            }
+        });
+    });
+</script>
 
-											<form>
-												<input type="button" value="INSCRIBIRME" >
-																							<button type="button" class="checkbox-form" data-toggle="modal" 
-											data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo
-											</button>
-											</form>
-
-
-											<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-												<div class="modal-dialog" role="document">
-													<div class="modal-content">
-														<div class="modal-header">
-															<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-																<span aria-hidden="true">&times;</span>
-															</button>
-															<h4 class="modal-title" id="exampleModalLabel">New message</h4>
-														</div>
-														<div class="modal-body">
-															<form>
-																<div class="form-group">
-																	<label for="recipient-name" class="form-control-label">Recipient:</label>
-																	<input type="text" class="form-control" id="recipient-name">
-																</div>
-																<div class="form-group">
-																	<label for="message-text" class="form-control-label">Message:</label>
-																	<textarea class="form-control" id="message-text"></textarea>
-																</div>
-															</form>
-														</div>
-														<div class="modal-footer">
-															<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-															<button type="button" class="btn btn-primary">Send message</button>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</div>
-							<div class="shape">
-								<div class="shape-right"><img src="images/star.png" alt="" /></div>
-							</div>
-
-						</div>
-						<!--Second card
-						<div class="col-md-3 top-grid yellow">
-							<img src="images/2a.jpg" alt="" />
-							<div class="img-bottom">
-								<ul>
-									<li><a href="#" class="icon"> </a></li>
-									<li><a href="#" class="icon1"> </a></li>
-									<li><a href="#" class="icon2"> </a></li>
-									<div class="clearfix"> </div>
-								</ul>
-							</div>
-							<div class="top-grid-bottom">
-								<div class="photo">
-									<p>CCNP Route</p>
-								</div>
-								<div class="photo-right">
-									<ul>
-										<li><a href="#">112</a></li>
-										<li class="comment"><a href="#">2345</a></li>
-									</ul>
-								</div>
-								<div class="clearfix"> </div>
-								<h4>Autumn mist on the canadian <span>river</span></h4>
-								<div class="user">
-									<div class="user-left">
-										<img src="images/iop3.gif" alt="" />
-									</div>
-									<div class="user-right">
-										<a href="#">Ing. Ramiro Ruiz</a>
-										<p>Instructor</p>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</div>
-							<div class="shape shape-red">
-								<div class="shape-right shape-red-left"><p>1</p></div>
-							</div>
-						</div>
-
-						<div class="col-md-3 top-grid top-grid-left">
-							<img src="images/3a.jpg" alt="" />
-							<div class="top-grid-bottom">
-								<div class="photo">
-									<p>Fast Track</p>
-								</div>
-								<div class="photo-right">
-									<ul>
-										<li><a href="#">112</a></li>
-										<li class="comment"><a href="#">2345</a></li>
-									</ul>
-								</div>
-								<div class="clearfix"> </div>
-								<div class="user top-grid-left-user">
-									<div class="user-left">
-										<img src="images/iop3.gif" alt="" />
-									</div>
-									<div class="user-right">
-										<a href="#">Ing. Ramiro Ruiz</a>
-										<p>Instructor</p>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3 top-grid top-grid-last">
-							<div class="top-grid-last-info">
-								<h3>Quod vero non ignis sanat insanabilia reputari oportet!</h3>
-								<p class="ancient">Ancient saying</p>
-							</div>
-							<div class="top-grid-bottom">
-								<div class="photo">
-									<p>Quote of the day</p>
-								</div>
-								<div class="photo-right">
-									<ul>
-										<li><a href="#">112</a></li>
-										<li class="comment"><a href="#">2345</a></li>
-									</ul>
-								</div>
-								<div class="clearfix"> </div>
-								<div class="user top-grid-left-user">
-									<div class="user-left">
-										<img src="images/iop3.gif" alt="" />
-									</div>
-									<div class="user-right">
-										<a href="#">Ing. Ramiro Ruiz</a>
-										<p>Instructor</p>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-							</div>
-						</div>
-						<div class="clearfix"> </div>
-					</div>-->
-					<!-- //container -->
-				</div>
-				<!-- //top-grids -->
-
-
-				<!-- middle-grids -->
-				<div class="middle-grids">
-					<!-- container -->
-					<div class="container">
-						<div class="col-md-3 middle-grid">
-							<div class="middle-left">
-								<h3>¡¡INSCRÍBETE <span>AHORA!!</span></h3>
-								<img src="images/switch2.png" alt="" />
-								<p>Con los mejores profesores certificados.
-								</p>
-								<div class="more">
-									<a href="#" class="hvr-bounce-to-bottom">KNOW MORE!</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-3 middle-grid">
-							<div class="poll">
-								<h3>POLL</h3>
-								<p>What music you prefer when in <span>bad mood</span></p>
-								<div class="ckeck-bg">
-									<div class="checkbox-form">
-										<div class="check">
-											<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>Rock music</label>
-										</div>
-										<div class="check">
-											<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>Punk music</label>
-										</div>
-										<div class="check">
-											<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>Pop</label>
-										</div>
-										<div class="check">
-											<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>Japan glam rock</label>
-										</div>
-										<div class="check">
-											<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>I don’t know...</label>
-										</div>
-										<form>
-											<input type="submit" value="GET CONNECTED">
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-3 middle-grid middle-right">
-							<div class="result">
-								<h3>RESULTS</h3>
-								<div class="skills-top">
-									<h5>Rock</h5>
-									<div class="skills">
-										<div class="skill1" style="width:52%"></div>
-										<div class="skills-right">
-											<p>52%</p>
-										</div>
-										<div class="clearfix"> </div>
-									</div>
-								</div>
-								<div class="skills-top">
-									<h5>Punk</h5>
-									<div class="skills">
-										<div class="skill1" style="width:35%"></div>
-										<div class="skills-right">
-											<p>35%</p>
-										</div>
-										<div class="clearfix"> </div>
-									</div>
-								</div>
-								<div class="skills-top">
-									<h5>Pop</h5>
-									<div class="skills">
-										<div class="skill1" style="width:11%"></div>
-										<div class="skills-right">
-											<p>11%</p>
-										</div>
-										<div class="clearfix"> </div>
-									</div>
-								</div>
-								<div class="skills-top">
-									<h5>Japan glam</h5>
-									<div class="skills">
-										<div class="skill1" style="width:5%"></div>
-										<div class="skills-right">
-											<p>5%</p>
-										</div>
-										<div class="clearfix"> </div>
-									</div>
-								</div>
-								<div class="skills-top">
-									<h5>Don’t know</h5>
-									<div class="skills">
-										<div class="skill1" style="width:1%"></div>
-										<div class="skills-right">
-											<p>1%</p>
-										</div>
-										<div class="clearfix"> </div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3 middle-grid middle-right-right">
-							<div class="right-grid">
-								<div class="right-img">
-									<a href="#"><img src="images/9.jpg" alt="" /></a>
-								</div>
-								<div class="right-info">
-									<p>Best landscapes
-										<span>of the world</span></p>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-								<div class="right-grid right-grid-middle">
-									<div class="right-img">
-										<a href="#"><img src="images/10.jpg" alt="" /></a>
-									</div>
-									<div class="right-info">
-										<p>Morning mist on 
-											<span>canadian river</span></p>
-										</div>
-										<div class="clearfix"> </div>
-									</div>
-									<div class="right-grid">
-										<div class="right-img">
-											<a href="#"><img src="images/11.jpg" alt="" /></a>
-										</div>
-										<div class="right-info">
-											<p>Promo is going
-												<span>on!</span></p>
-											</div>
-											<div class="clearfix"> </div>
-										</div>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-								<!-- container -->
-							</div>
-							<!-- //middle-grids -->
-							<!-- middle-bottom -->
-							<div class="middle-bottom">
-								<!-- container -->
-								<div class="container">
-									<div class="col-md-3 middle-bottom-grid">
-										<img src="images/12.jpg" alt="" />
-										<div class="middle-bottom-grid-info">
-											<p>News</p>
-											<h4>Night life 
-												<span>of new york</span>
-											</h4>
-										</div>
-										<div class="middle-bottom-grid-text">
-											<div class="middle-bottom-grid-left">
-												<ul>
-													<li><a href="#">112</a></li>
-												</ul>
-											</div>
-											<div class="middle-bottom-grid-right">
-												<ul>
-													<li><a href="#"><img src="images/star1.png" alt="" /></a></li>
-													<li><a href="#"><img src="images/hart.png" alt="" /></a></li>
-												</ul>
-											</div>
-											<div class="clearfix"> </div>
-										</div>
-									</div>
-									<div class="col-md-3 middle-bottom-grid">
-										<img src="images/13.jpg" alt="" />
-										<div class="middle-bottom-grid-text middle-left-grid-text">
-											<div class="middle-bottom-grid-left">
-												<p>Style</p>
-											</div>
-											<div class="middle-bottom-grid-right middle-bottom-grid-right-right">
-												<ul>
-													<li class="text"><a href="#">112</a></li>
-													<li class="red-comment"><a href="#">2345</a></li>
-												</ul>
-											</div>
-											<div class="clearfix"> </div>
-											<p class="sub-text">New capsule sneakers collection 
-												<span>from famous rapper</span>
-											</p>
-											<div class="clearfix"> </div>
-										</div>
-									</div>
-									<div class="col-md-6 middle-bottom-grid middle-bottom-right-grid">
-										<img src="images/14.jpg" alt="" />
-										<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><span> </span></a>
-										<div id="small-dialog" class="mfp-hide">
-											<iframe src="https://player.vimeo.com/video/53699820" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-										</div>
-										<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
-										<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
-										<script>
-											$(document).ready(function() {
-												$('.popup-with-zoom-anim').magnificPopup({
-													type: 'inline',
-													fixedContentPos: false,
-													fixedBgPos: true,
-													overflowY: 'auto',
-													closeBtnInside: true,
-													preloader: false,
-													midClick: true,
-													removalDelay: 300,
-													mainClass: 'my-mfp-zoom-in'
-												});
-											});
-										</script>
-
-										<div class="middle-bottom-grid-text middle-right-grid-text">
-											<div class="middle-bottom-grid-left">
-												<p>Music video</p>
-											</div>
-											<div class="middle-bottom-grid-right middle-bottom-grid-right-right">
-												<ul>
-													<li class="text"><a href="#">112</a></li>
-													<li class="red-comment"><a href="#">2345</a></li>
-												</ul>
-											</div>
-											<div class="clearfix"> </div>
-											<h4>Night life in chicago bar</h4>
-											<div class="clearfix"> </div>
-										</div>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-								<!-- //container -->
-							</div>
-							<!-- //middle-bottom -->
-							<!-- bottom-grids -->
-							<div class="bottom-grids">
-								<!-- container -->
-								<div class="container">
-									<div class="col-md-3 bottom-grid">
-										<div class="bottom-grid-info">
-											<h4>Man of the day</h4>
-											<img src="images/men.png" alt="" />
-											<h5>BRAD PITT</h5>
-											<p class="date">born december 18 1963</p>
-											<p class="info">an American actor and producer. He has received a Golden Globe Award, a Screen Actors Guild Award.</p>
-										</div>
-									</div>
-
-									<div class="col-md-3 bottom-grid">
-										<div class="register">
-											<h4>register now</h4>
-											<p>Get connected and receive fresh news from our brand</p>
-											<form>
-												<input type="text" placeholder="E-mail address" required="">
-												<input type="password" placeholder="Password" required="">
-												<input type="password" placeholder="Password again" required="">
-												<input type="submit" value="GET CONNECTED">
-											</form>
-										</div>
-									</div>
-									<div class="col-md-3 middle-bottom-grid">
-										<img src="images/15.jpg" alt="">
-										<div class="middle-bottom-grid-text middle-left-grid-text bottom-left-bottom">
-											<div class="middle-bottom-grid-left">
-												<p>Style</p>
-											</div>
-											<div class="middle-bottom-grid-right middle-bottom-grid-right-right">
-												<ul>
-													<li class="text"><a href="#">112</a></li>
-													<li class="red-comment"><a href="#">2345</a></li>
-												</ul>
-											</div>
-											<div class="clearfix"> </div>
-											<a href="#">Smartphones vs fablets
-												ultimate battle
-											</a>
-											<div class="clearfix"> </div>
-										</div>
-									</div>
-									<div class="col-md-3 top-grid green-grid">
-										<img src="images/4.jpg" alt="">
-										<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><span> </span></a>
-										<div id="small-dialog" class="mfp-hide">
-											<iframe src="https://player.vimeo.com/video/53699820" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-										</div>
-										<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
-										<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
-										<script>
-											$(document).ready(function() {
-												$('.popup-with-zoom-anim').magnificPopup({
-													type: 'inline',
-													fixedContentPos: false,
-													fixedBgPos: true,
-													overflowY: 'auto',
-													closeBtnInside: true,
-													preloader: false,
-													midClick: true,
-													removalDelay: 300,
-													mainClass: 'my-mfp-zoom-in'
-												});
-											});
-										</script>
-										<div class="top-grid-bottom green">
-											<div class="photo">
-												<p>Photography</p>
-											</div>
-											<div class="photo-right green-right">
-												<ul>
-													<li><a href="#">112</a></li>
-													<li class="comment"><a href="#">2345</a></li>
-												</ul>
-											</div>
-											<div class="clearfix"> </div>
-											<a href="#" class="great">10 great photos from the new zealand</a>
-											<div class="user green-user">
-												<div class="user-left">
-													<img src="images/iop3.gif" alt="">
-												</div>
-												<div class="user-right green-right">
-													<a href="#">Ing. Ramiro Ruiz</a>
-													<p>Instructor</p>
-												</div>
-												<div class="clearfix"> </div>
-											</div>
-										</div>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-								<!-- //container -->
-							</div>
-							<!-- //bottom-grids -->
-							<!-- last-grids -->
-							<div class="last-grids">
-								<!-- container -->
-								<div class="container">
-									<div class="col-md-3 last-grid">
-										<!-- calendar -->
-										<div class="calender-right">
-											<div class="alert-close1"> </div>
-											<div class="column_right_grid calender">
-												<div class="cal1"><div class="clndr"><div class="clndr-controls"><div class="clndr-control-button"><p class="clndr-previous-button">previous</p></div><div class="month">April 2015</div><div class="clndr-control-button rightalign"><p class="clndr-next-button">next</p></div></div><table class="clndr-table" border="0" cellspacing="0" cellpadding="0"><thead><tr class="header-days"><td class="header-day">S</td><td class="header-day">M</td><td class="header-day">T</td><td class="header-day">W</td><td class="header-day">T</td><td class="header-day">F</td><td class="header-day">S</td></tr></thead><tbody><tr><td class="day past adjacent-month last-month calendar-day-2015-03-29"><div class="day-contents">29</div></td><td class="day past adjacent-month last-month calendar-day-2015-03-30"><div class="day-contents">30</div></td><td class="day past adjacent-month last-month calendar-day-2015-03-31"><div class="day-contents">31</div></td><td class="day past calendar-day-2015-04-01"><div class="day-contents">1</div></td><td class="day past calendar-day-2015-04-02"><div class="day-contents">2</div></td><td class="day past calendar-day-2015-04-03"><div class="day-contents">3</div></td><td class="day today calendar-day-2015-04-04"><div class="day-contents">4</div></td></tr><tr><td class="day calendar-day-2015-04-05"><div class="day-contents">5</div></td><td class="day calendar-day-2015-04-06"><div class="day-contents">6</div></td><td class="day calendar-day-2015-04-07"><div class="day-contents">7</div></td><td class="day calendar-day-2015-04-08"><div class="day-contents">8</div></td><td class="day calendar-day-2015-04-09"><div class="day-contents">9</div></td><td class="day event calendar-day-2015-04-10"><div class="day-contents">10</div></td><td class="day event calendar-day-2015-04-11"><div class="day-contents">11</div></td></tr><tr><td class="day event calendar-day-2015-04-12"><div class="day-contents">12</div></td><td class="day event calendar-day-2015-04-13"><div class="day-contents">13</div></td><td class="day event calendar-day-2015-04-14"><div class="day-contents">14</div></td><td class="day calendar-day-2015-04-15"><div class="day-contents">15</div></td><td class="day calendar-day-2015-04-16"><div class="day-contents">16</div></td><td class="day calendar-day-2015-04-17"><div class="day-contents">17</div></td><td class="day calendar-day-2015-04-18"><div class="day-contents">18</div></td></tr><tr><td class="day calendar-day-2015-04-19"><div class="day-contents">19</div></td><td class="day calendar-day-2015-04-20"><div class="day-contents">20</div></td><td class="day event calendar-day-2015-04-21"><div class="day-contents">21</div></td><td class="day event calendar-day-2015-04-22"><div class="day-contents">22</div></td><td class="day event calendar-day-2015-04-23"><div class="day-contents">23</div></td><td class="day calendar-day-2015-04-24"><div class="day-contents">24</div></td><td class="day calendar-day-2015-04-25"><div class="day-contents">25</div></td></tr><tr><td class="day calendar-day-2015-04-26"><div class="day-contents">26</div></td><td class="day calendar-day-2015-04-27"><div class="day-contents">27</div></td><td class="day calendar-day-2015-04-28"><div class="day-contents">28</div></td><td class="day calendar-day-2015-04-29"><div class="day-contents">29</div></td><td class="day calendar-day-2015-04-30"><div class="day-contents">30</div></td><td class="day adjacent-month next-month calendar-day-2015-05-01"><div class="day-contents">1</div></td><td class="day adjacent-month next-month calendar-day-2015-05-02"><div class="day-contents">2</div></td></tr></tbody></table></div></div>
-											</div>
-										</div>
-										<!-- //calendar -->
-									</div>
-									<div class="col-md-3 last-grid">
-										<div class="login">
-											<h4>Login</h4>
-											<p>Enter now with your social <span>network account</span></p>
-											<div class="login-grids">
-												<div class="login-top">
-													<ul>
-														<li><a href="#" class="facebook"> </a></li>
-														<li><a href="#" class="vk"> </a></li>
-													</ul>
-												</div>
-												<div class="login-top login-bottom">
-													<ul>
-														<li><a href="#" class="ok"> </a></li>
-														<li><a href="#" class="twitter"> </a></li>
-													</ul>
-												</div>
-											</div>
-											<p class="account">i don’t have an account</p>
-											<a href="#">Use E-mail</a>
-										</div>
-									</div>
-									<div class="col-md-3 last-grid">
-										<div class="last-grid-left">
-											<img src="images/18.jpg" alt="" />
-											<div class="last-grid-left-info">
-												<p>10 great photos from the 
-													<span>new zealand</span>
-												</p>
-											</div>
-										</div>
-										<div class="clearfix"> </div>
-									</div>
-									<!-- //container -->
-								</div>
-								<!-- //last-grids -->
-								<div class="container">
-								</div>
-
-								<!-- container -->
-								<div class="container">
-									<!-- footer -->
-									<div class="footer">
-										<div class="footer-grids">
-											<div class="col-md-3 footer-grid">
-												<h5>DIVISIÓN DE INGENIERÍA ELÉCTRICA</h5>
-												<ul>
-													<li><a href="http://www.fi-b.unam.mx/">Sitio</a></li>
-													<li><a href="#"></a>Académicos</li>
-												</ul>
-											</div>
-											<div class="col-md-3 footer-grid">
-												<h5>DEPARTAMENTO DE TELECOMUNICACIONES</h5>
-												<ul>
-													<li><a href="http://telecom.fi-b.unam.mx/">Sitio</a></li>
-													<li><a href="http://www.cursostelecom.unam.mx/">Diplomados</a></li>
-												</ul>
-											</div>
-											<div class="col-md-3 footer-grid">
-												<h5>FACULTAD DE INGENIERÍA</h5>
-												<ul>
-													<li><a href="http://www.ingenieria.unam.mx/">Sitio</a></li>
-												</ul>
-											</div>
-											<div class="col-md-3 copyright">
-												<p><a href="https://www.unam.mx/"> Universidad Nacional Autónoma de México</a> D.R. 2016 ©</p>
-											</div>
-											<div class="clearfix"> </div>
-										</div>
-									</div>
-									<!-- //footer -->
-								</div>
-								<!-- //container -->
-							</body>
-							</html>
+</html>
