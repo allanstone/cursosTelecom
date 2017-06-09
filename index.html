@@ -3,7 +3,7 @@
 <head>
     <title>CURSOS TELECOM</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon " href="img/favicon.ico"/>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -18,8 +18,8 @@
         -->
         <div class="row">
             <ul id="dropdown1" class="dropdown-content">
-              <li><a href="#">Ciclo Escolar 2016-1</a></li>
-              <li><a href="#">Ciclo Escolar 2016-2</a></li>
+              <li><a target="_blank" href="http://www.cursostelecom.unam.mx/PDF/cursos%202016-1PRO.pdf"><i class="material-icons right">looks_one</i>Ciclo Escolar 2016-1</a></li>
+              <li><a target="_blank" href="http://www.cursostelecom.unam.mx/PDF/cursos%202016-2PRO.pdf"><i class="material-icons right">looks_two</i>Ciclo Escolar 2016-2</a></li>
               <li class="divider"></li>
               <li><a href="#">Ciclo Escolar 2017-1</a></li>
             </ul>
@@ -30,7 +30,7 @@
                       <ul class="right hide-on-med-and-down">
                         <li><a href="#"><i class="material-icons right">perm_identity</i>Registro a Cursos</a></li>
                          <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons right">today</i>Calendarios<i class="material-icons right">arrow_drop_down</i></a></li>
-                         <li><a href=""><i class="material-icons right">help</i>FAQ</a></li>
+                         <li><a target="_blank" href="http://www.cursostelecom.unam.mx/PDF/Preguntas%20y%20Respuestas%20Cursos%20Telecom.pdf"><i class="material-icons right">help</i>FAQ</a></li>
                          <li><a target="_blank" href="http://odin.fi-b.unam.mx/ctyss/Formatos/Opciones_titulacion/Reglamento_Opciones_de_Titulacion_2015.pdf"><i class="material-icons right">insert_drive_file</i>Formato Titulación</a></li>
                       </ul>
 
@@ -38,11 +38,17 @@
                </div>
 
             </nav>
-            <ul id="dropdown2" class="dropdown-content">
-                         <li><a href="#"><i class="material-icons left">today</i>Registro a Cursos</a></li>
-                         <li><a href="#"><i class="material-icons right">today</i>Calendarios</a></li>
-                         <li><a href="#"><i class="material-icons right">help</i>FAQ</a></li>
-                         <li><a target="_blank" href="http://odin.fi-b.unam.mx/ctyss/Formatos/Opciones_titulacion/Reglamento_Opciones_de_Titulacion_2015.pdf"><i class="material-icons">insert_drive_file</i>Formato Titulación</a></li>
+            <ul id="dropdown2" class="dropdown-content hide-on-large-only">
+                         <li><a href="#"><i class="material-icons right">perm_identity</i>Registro a Cursos</a></li>
+                         <li><a class="dropdown-button" href="#!" data-activates="dropdown3"><i class="material-icons right">today</i>Calendarios</a></li>
+                             <ul id="dropdown3" class="dropdown-content">
+                                  <li><a target="_blank" href="http://www.cursostelecom.unam.mx/PDF/cursos%202016-1PRO.pdf">Ciclo Escolar 2016-1</a></li>
+                                  <li><a target="_blank" href="http://www.cursostelecom.unam.mx/PDF/cursos%202016-2PRO.pdf">Ciclo Escolar 2016-2</a></li>
+                                  <li class="divider"></li>
+                                  <li><a href="#">Ciclo Escolar 2017-1</a></li>
+                             </ul>
+                         <li><a target="_blank" href="http://www.cursostelecom.unam.mx/PDF/Preguntas%20y%20Respuestas%20Cursos%20Telecom.pdf"><i class="material-icons right">help</i>FAQ</a></li>
+                         <li><a target="_blank" href="http://odin.fi-b.unam.mx/ctyss/Formatos/Opciones_titulacion/Reglamento_Opciones_de_Titulacion_2015.pdf"><i class="material-icons right">insert_drive_file</i>Formato Titulación</a></li>
                       </ul>
         </div>
 
@@ -102,10 +108,10 @@
             <div class="col m4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activato responsive-img" src="img/cursos/Hackathon_UNAM-Cisco.jpg">
+                        <img class="activato responsive-img" src="img/cursos/CCNA_RS_S_2018(1).jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Hackathon<i class="material-icons right">more_vert</i></span>
+                        <span class="card-title activator grey-text text-darken-4">CNNA R&S<i class="material-icons right">more_vert</i></span>
                         <a class="waves-effect waves-light btn top-title ancho">Temario</a>
                         <br>
                         <a class="waves-effect waves-light btn top-title ancho">Equipo</a>
@@ -130,7 +136,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="input-field col s12">
-                                            <input name="curso" value="CCNA_SECURITY_2017" id="disabled" type="text" class="validate disable" readonly>
+                                            <input name="curso" value="CCNA_RS_2018" id="disabled" type="text" class="validate disable" readonly>
                                             <label for="disabled"></label>
                                         </div>
                                     </div>
@@ -163,15 +169,25 @@
                         </div>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">HACKATHON<i class="material-icons right">close</i></span>
-                        <p>Del 9 al 11 de marzo se realizó el primer Girls Hackathon organizado por Cisco, en colaboración con la Facultad de Ingeniería, en el marco del Día Internacional de la Mujer. El objetivo fue mostrar el talento de las estudiantes que hay en esta entidad universitaria y poner a prueba los conocimientos y habilidades adquiridas a lo largo de su carrera, ya que el requisito de la competencia precisaba que las participantes deberían ser de los últimos semestres. El certamen se llevó a cabo en las instalaciones de Cisco y en el Centro de Ingeniería Avanzada de la FI.</p>
+                        <span class="card-title grey-text text-darken-4">CNNA SECURITY<i class="material-icons right">close</i></span>
+                        <p><blockquote>La currícula de CCNA Routing and Switching (CCNA Routing y Switching) es una puerta para empleos de nivel básico en redes y carreras profesionales en TI. <br>
+                        La currícula consta de 4 cursos de 70 horas: Introduction to Networks, Routing and Switching Essentials, Scaling Networks y Connecting Networks. Los primeros dos cursos lo preparan para el examen de certificación Cisco CCENT o para estudiar CCNA Security. <br>
+                        Se recomienda realizar los cuatro cursos antes del examen de certificación CCNA Routing and Switching de Cisco. <br>Desarrolle un conocimiento práctico sobre routing, switching, aplicaciones de red, protocolos y servicios.<br>
+                        Estudie con un instructor en un aula y acceda a contenido especializado en línea, en cualquier momento.<br>
+                        Practique lo que aprende con equipos reales y Cisco Packet Tracer, una herramienta de simulación para la configuración de la red.<br>
+                        Obtenga comentarios inmediatos sobre su trabajo en pruebas y cuestionarios integrados.
+                        Prepárese para el lugar de trabajo con proyectos y presentaciones de colaboración.
+                        Conéctese con la comunidad global de Cisco Networking Academy.
+                            </blockquote>                      
+                            
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col m4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator responsive-img" src="img/cursos/CCNP_RS_2017_2.jpg">
+                        <img class="activato responsive-img" src="img/cursos/CCNP_2018.jpg">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">CNNP R&S<i class="material-icons right">more_vert</i></span>
@@ -181,28 +197,74 @@
                         <br>
                         <a class="waves-effect waves-light btn top-title ancho" href="http://www.cursostelecom.unam.mx/PDF/CV_RRA.pdf" target="_blank">CV Instructor</a>
                         <br>
-                        <a class="waves-effect waves-light btn top-title ancho" href="#modal1">Inscribete</a>
+                        <a class="waves-effect waves-light btn top-title ancho" href="#modal2">Inscribete</a>
                     </div>
-                    <div id="modal1" class="modal">
+                    <div id="modal2" class="modal">
                         <div class="modal-content">
-                            <h4>Modal Header</h4>
-                            <p>A bunch of text</p>
-                        </div>
-                        <div class="modal-footer">
-                            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                            <div class="row">
+                                <form class="col s12" action="script.php" method="POST" id="form_datos">
+                                    <div class="row">
+                                        <div class="input-field col s6">
+                                            <input name="names" placeholder="Nombres" id="first_name" type="text" class="validate">
+                                            <label for="first_name">Inscripción</label>
+                                        </div>
+                                        <div class="input-field col s6">
+                                            <input name="lastnames" id="last_name" type="text" class="validate">
+                                            <label for="last_name">Apellidos </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input name="curso" value="CCNP_RS_2017" id="disabled" type="text" class="validate disable" readonly>
+                                            <label for="disabled"></label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input name="password" id="password" type="password" class="validate">
+                                            <label for="password">Password</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input name="email" id="email" type="email" class="validate">
+                                            <label for="email">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col s12">
+                                            Confirma tu correo:
+                                            <div class="input-field inline">
+                                                <input id="email" type="email" class="validate">
+                                                <label for="email" data-error="error" data-success="correcto">Email</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="modal-footer">
+                                 <input class=" modal-action modal-close waves-effect waves-green btn-flat" type="submit" name="submit" value="REGISTRAR">
+                                </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
-                        <p>Descripción del curso:
-                        La currícula de CCNA Routing and Switching (CCNA v5), está diseñada para estudiantes interesados en el aprendizaje de las nuevas tecnologías de la información y comunicación.</p>
+                        <span class="card-title grey-text text-darken-4">CNNA SECURITY<i class="material-icons right">close</i></span>
+                        <p><blockquote>CCNP Routing and Switching se basa en la currícula de CCNA y agrega un estudio exhaustivo del routing y switching avanzados para redes convergentes de voz, video y datos empresariales. El currículo de CCNP Routing & Switching consta de 3 cursos de 70 horas: ROUTE, SWITCH y TSHOOT.<br>
+                        Desarrolle una comprensión exhaustiva y un conocimiento teórico del routing y el switching avanzados.<br>
+                        Estudie con un instructor en un aula y acceda a contenido especializado en línea, en cualquier momento.<br>
+                        Practique lo que aprende con equipos reales y obtenga comentarios inmediatos sobre su trabajo en pruebas y cuestionarios.<br>
+                        Prepárese para el lugar de trabajo con proyectos y presentaciones de colaboración.<br>
+                        Conéctese con la comunidad global de Cisco Networking Academy
+                            </blockquote>                      
+                            
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col m4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activato responsive-img" src="img/cursos/CCNA_SECURITY_2017_2.jpg">
+                        <img class="activato responsive-img" src="img/cursos/CCNA_SEC_2018.png">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">CNNA SECURITY<i class="material-icons right">more_vert</i></span>
@@ -264,8 +326,22 @@
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">CNNA SECURITY<i class="material-icons right">close</i></span>
-                        <p>Descripción del curso:
-                        La currícula de CCNA Routing and Switching (CCNA v5), está diseñada para estudiantes interesados en el aprendizaje de las nuevas tecnologías de la información y comunicación.</p>
+                        <p><blockquote>Al finalizar el curso CCNA Security, el alumno será capaz de realizar las siguientes tareas:<br>
+                            •   Describir las amenazas a la seguridad que enfrentan las infraestructuras de red modernas.<br>
+                            •   Acceso a dispositivos de red segura.<br>
+                            •   Implementar AAA en dispositivos de red.<br>
+                            •   Mitigar las amenazas a las redes que utilizan ACL.<br>
+                            •   Implementar la gestión de red segura y presentación de informes.<br>
+                            •   Mitigar ataques comunes de capa 2.<br>
+                            •   Poner en práctica el conjunto de funciones de firewall de Cisco IOS.<br>
+                            •   Poner en práctica el conjunto de características Cisco IOS IPS.<br>
+                            •   Implementar de sitio a sitio VPN IPSec.<br>
+                            •   Administrar políticas de seguridad eficaces.
+
+                            <!--CCNA Security (CCNA Seguridad) lo prepara para diseñar, implementar y mantener la seguridad de los dispositivos en red. El curso se basa en los primeros dos cursos CCNA Routing & Switching y lo prepara para su certificación Cisco Security. Agregue una especialización en seguridad a sus aptitudes de redes de CCNA y expanda sus oportunidades profesionales.Desarrolle un conocimiento práctico sobre los puntos básicos, las herramientas y las configuraciones de seguridad de la red. Estudie con un instructor en un aula y acceda a contenido especializado en línea, en cualquier momento. Practique lo que aprende con equipos reales y Cisco Packet Tracer, una herramienta de simulación para la configuración de la red.Obtenga comentarios inmediatos sobre su trabajo en pruebas y cuestionarios integrados. Prepárese para el lugar de trabajo con proyectos y presentaciones de colaboración. Conéctese con la comunidad global de Cisco Networking Academy-->
+                            </blockquote>                      
+                            
+                        </p>
                     </div>
                 </div>
             </div>
